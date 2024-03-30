@@ -11,6 +11,8 @@ interface ShopItemProps {
     thumbnail: string;
 }
 
+
+
 const ShopItem = (props: ShopItemProps) => {
   return (
     <div className="shop-card">
@@ -19,6 +21,7 @@ const ShopItem = (props: ShopItemProps) => {
       <div>${props.price}</div>
       <div>rating: {props.rating}</div>
       <div>brand: {props.brand}</div>
+      title
     </div>
   );
 }
