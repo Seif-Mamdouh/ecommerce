@@ -4,7 +4,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <div>Mobile Phones</div>
+      <div>Shopping Center</div>
     </div>
   );
 };
