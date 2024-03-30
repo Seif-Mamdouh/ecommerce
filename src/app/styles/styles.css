@@ -1,49 +1,65 @@
-.container{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    margin: 10px;
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+.filter-container,
+.cart-container {
+  width: 10%; 
+  height: 20%;
+}
+
+
 .shop-items-container{
+    width: 70%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 20%;
 }
+
 
 .shop-card {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items horizontally in the center */
-  padding: 20px;
+  align-items: center; 
+  padding: 5%;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 10%;
+  margin: 10%;
+  margin-right: 10px;
+  width: 20vw;
+  height: 35vh;
 }
 
 .shop-card img {
-  width: 100%; /* Make the image take up the full width of the card */
+  width: 35%;
   border-radius: 8px;
-  margin-bottom: 10px; /* Add some space below the image */
+  margin-bottom: 10px;
+}
+
+.shop-card h6 {
+  font-size: 1rem;
+  margin-bottom: 2%;
 }
 
 .shop-card div {
-  margin-bottom: 5%; /* Add space between each div */
+  margin-bottom: 5%;
 }
 
 .filter-container{
-    width: 20%;
-    height: 30%;
     background-color: red;
+    margin-left: 1%;
 }
 
 .filter{
-    /* separate the words from each other */
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 10px;
+}
+
+.cart-container{
+    background-color: blue;
 }
